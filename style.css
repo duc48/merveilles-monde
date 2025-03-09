@@ -1,7 +1,6 @@
 #principal{
     padding: 0px;
     width: 80%;
-    /*display: block;*/
     margin: auto;
 }
 
@@ -80,28 +79,25 @@ h3 {
    
 }
 .jpg1 {
-    /* Add your styles here */
     display: block;
     margin: left;
     padding: 0px;
     width: 100%;
     height: 800px;
 }
-#imgspresentation {
-    /* Add your styles here */
-    width: 150px;
-}
+
 #navgallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
 }
-#fhgallery {
+.imggallery {
     margin: 10px;
     border: 2px solid #ccc;
     overflow: hidden;
-    min-width:10%;
+    max-width: 300px;
+    max-height: 200px;
 }
 #intro {
     text-align: justify;
